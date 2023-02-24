@@ -17,10 +17,6 @@ const userSchema = new Schema({
         unique: true,
         required: [true, 'Email is required'],
         },
-    // name: {
-    //     type: String,
-    //     required: true,
-    // },
     subscription: {
         type: String,
         enum: ["starter", "pro", "business"],
